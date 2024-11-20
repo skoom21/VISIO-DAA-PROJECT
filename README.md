@@ -1,4 +1,4 @@
-# VISIO - Algorithm Visualization Platform ![VISIO Logo](gui/my-app/public/visio-logo.svg#bg=white)
+# VISIO - Algorithm Visualization Platform ![VISIO Logo](my-app/public/visio-logo.svg#bg=white)
 ## Design and Analysis of Algorithms (Fall 2024)
 ### Project Part 2
 
