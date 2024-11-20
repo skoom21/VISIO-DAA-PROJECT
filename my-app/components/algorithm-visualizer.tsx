@@ -597,6 +597,25 @@ const ClosestPairVisualizer: React.FC = () => {
           </div>
         </div>
 
+        <div className=" left-1/2 transform space-x-4 text-sm flex justify-center">
+          <div className="flex items-center gap-2">
+            <div className="w-3 h-3 rounded-full bg-[#22C55E]" />
+            <span>Frontier set</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <div className="w-3 h-3 rounded-full bg-red-500" />
+            <span>Closest points</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <div className="w-3 h-3 rounded-full bg-[#FFD700]" />
+            <span>Zone of interest</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <div className="w-3 h-3 rounded-full bg-[#FFA500]" />
+            <span>Current point</span>
+          </div>
+        </div>
+
         <div className="border rounded-lg p-4 bg-background">
           <canvas
             ref={canvasRef}
@@ -648,24 +667,7 @@ const ClosestPairVisualizer: React.FC = () => {
           </div>
         </div>
         
-        <div className="absolute left-20 top-1/2 transform -translate-y-1/2 space-y-4 text-sm">
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 rounded-full bg-[#22C55E]" />
-            <span>Frontier set</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 rounded-full bg-red-500" />
-            <span>Closest points</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 rounded-full bg-[#FFD700]" />
-            <span>Zone of interest</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 rounded-full bg-[#FFA500]" />
-            <span>Current point</span>
-          </div>
-        </div>
+
         <div className="mt-4">
           <Button
             onClick={() => setShowDetails(!showDetails)}
