@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 160">
+  <!-- Background Design Element -->
+  <path d="M60 40 L150 140 L240 40" 
+        stroke="#f0f0f0" 
+        stroke-width="40" 
+        fill="none" 
+        stroke-linecap="round"/>
+  
+  <!-- Main V shape with smooth joins -->
+  <path d="M60 40 L150 140 L240 40" 
+        stroke="black" 
+        stroke-width="12" 
+        fill="none" 
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  
+  <!-- Decorative Algorithm Path Lines -->
+  <path d="M60 40 C150 40, 150 140, 240 40" 
+        stroke="black" 
+        stroke-width="2" 
+        fill="none" 
+        stroke-dasharray="6,6"
+        opacity="0.5"/>
+  
+  <!-- Strategic Nodes -->
+  <circle cx="60" cy="40" r="8" fill="black"/>
+  <circle cx="150" cy="140" r="8" fill="black"/>
+  <circle cx="240" cy="40" r="8" fill="black"/>
+  
+  <!-- Smaller Connection Nodes -->
+  <circle cx="105" cy="90" r="4" fill="black"/>
+  <circle cx="195" cy="90" r="4" fill="black"/>
+  
+  
+  <!-- Subtle Connecting Lines -->
+  <line x1="105" y1="90" x2="195" y2="90" 
+        stroke="black" 
+        stroke-width="1.5" 
+        stroke-dasharray="3,3"
+        opacity="0.3"/>
+</svg>
